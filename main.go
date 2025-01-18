@@ -14,7 +14,7 @@ func main () {
 	runtime.ReadMemStats(&memStats)
 	fmt.Printf("Memory Usage Before: Alloc = %v KB\n", memStats.Alloc/1024)
 
-	y2020.Day7()
+	y2020.Day8()
 
 	runtime.ReadMemStats(&memStats)
 	fmt.Printf("Memory Usage After: Alloc = %v KB\n", memStats.Alloc/1024)
